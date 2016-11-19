@@ -1,0 +1,24 @@
+{
+  "name": "lando",
+  "version": "0.1.0",
+  "description": "Functional library for modern javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/lando.git"
+  },
+  "keywords": [
+    "ramda",
+    "functional",
+    "esnext"
+  ],
+  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/lando/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/lando#readme"
+}
