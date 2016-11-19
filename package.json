@@ -4,7 +4,8 @@
   "description": "Functional library for modern javascript",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "webpack-dev-server --port 4000",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
