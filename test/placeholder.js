@@ -1,7 +1,7 @@
 import test from 'ava'
-import __ from '../lib/placeholder'
+import __, { isPlaceholder } from '../lib/placeholder'
 
 test('is placeholder', t => {
-  t.true(__['@@functional/placeholder'])
+  t.true(isPlaceholder(__))
 })
 
