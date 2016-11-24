@@ -3,6 +3,8 @@
   "rules": {
     "semi": [2, "never"],
     "comma-dangle": [2, "never"],
+    "no-underscore-dangle": 0,
+    "arrow-parens": [2, "as-needed"],
     "space-before-function-paren": [2, "always"]
   }
 }
