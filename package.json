@@ -7,6 +7,7 @@
     "start": "webpack-dev-server --port 4000",
     "build": "webpack -p",
     "coverage": "npm test && nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint lib/**/*.js test/**/*.js",
     "test": "nyc ava"
   },
   "repository": {
