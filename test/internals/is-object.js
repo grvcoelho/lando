@@ -1,8 +1,6 @@
 import test from 'ava'
 import isObject from '../../lib/internals/is-object'
 
-
-
 test('returns true for arguments ', t => {
   t.true(isObject(arguments))
 })
